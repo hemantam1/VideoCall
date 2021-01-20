@@ -1,0 +1,162 @@
+.header 
+{
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  background: #52575c;
+  color: white;
+}
+.banner {
+  padding: 0;
+  background-color: #52575c;
+  color: white;
+}
+
+.banner-text {
+  padding: 8px 20px;
+  margin: 0;
+}
+
+
+#join-form {
+  margin-top: 10px;
+}
+
+.tips {
+  font-size: 12px;
+  margin-bottom: 2px;
+  color: gray;
+}
+.video-group 
+{
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+.join-info-text {
+  margin-bottom: 2px;
+}
+input {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.player {
+  width: 480px;
+  height: 320px;
+}
+
+.player-name {
+  margin: 8px 0;
+}
+
+#success-alert, #success-alert-with-token {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .player {
+    width: 320px;
+    height: 240px;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  
+  .video-group 
+  {
+    grid-template-columns: auto;
+  }
+  .header 
+  {
+    padding: 30px;
+  }
+  
+}
+.container1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  background: #ffffffe6;;
+  z-index: 1;
+}
+.wrapper 
+{
+  max-width: 400px;
+  height: 70%;
+  margin: 5% auto auto auto;
+  border: 1px lightgray solid;
+  border-radius: 10px;
+  position: relative;
+  background: white;
+}
+
+.wrapper img 
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+.wrapper h1 
+{
+  text-align: center;
+  color: black;
+}
+.wrapper .row-sm 
+{
+  margin: 30px 0px 0px 20px;
+}
+.wrapper .row-sm p 
+{
+  margin: 0px;
+}
+.wrapper .row-sm input[type="text"]
+{
+  width: 225px;
+  outline: none;
+}
+textarea {
+resize: none;
+outline: none;
+}
+.buttondiv 
+{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button 
+{
+  width: 100px;
+  background: #2274A4;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: 0px;
+  padding: 5px 0px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.roominfo 
+{
+  float: right;
+}
+.viewinfo 
+{
+  width: 150px;
+}
+@media screen and (max-width: 480px) {
+  .wrapper 
+  {
+      margin: 30% auto auto auto;
+  }
+}
